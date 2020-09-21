@@ -1,0 +1,26 @@
+# Book settings
+title             : Colab Experiment
+author            : Fred Mitchell
+
+latex:
+  latex_documents:
+    targetname: book.tex
+
+# Location of book
+repository:
+  url          : https://github.com/fm75/jbook-209
+  path_to_book : ""
+  branch       : master
+  
+#######################################################################################
+# HTML-specific settings
+html:
+  use_repository_button    : true
+  use_issues_button        : true
+  use_edit_page_button     : true
+
+  
+#######################################################################################
+# Launch button settings
+launch_buttons:
+  notebook_interface        : jupyterlab
