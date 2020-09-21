@@ -24,4 +24,4 @@ html:
 # Launch button settings
 launch_buttons:
   notebook_interface        : jupyterlab
-  colab_url                 :
+  colab_url                 : ''
