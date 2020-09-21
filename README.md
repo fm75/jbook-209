@@ -13,7 +13,8 @@ kernelspec:
 
 # jbook-209
 colab defaults on in jbook
-[book](https://github.com/fm75/jbook-209/pull/new/gh-pages)
+
+[book](https://fm75.github.io/jbook-209/README.html)
 
 +++
 
