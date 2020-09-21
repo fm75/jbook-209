@@ -14,6 +14,8 @@ kernelspec:
 # jbook-209
 colab defaults on in jbook
 
+[book](https://fm75.github.io/jbook-209/README.html)
+
 +++
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fm75/jbook-209/master?urlpath=lab) master
@@ -33,8 +35,4 @@ colab defaults on in jbook
 
 ```{code-cell} ipython3
 !jupytext README.ipynb  --to myst
-```
-
-```{code-cell} ipython3
-
 ```
