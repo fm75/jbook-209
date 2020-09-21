@@ -12,9 +12,10 @@ kernelspec:
 ---
 
 # jbook-209
-colab defaults on in jbook
+colab defaults on in jbook?
 
-[book](https://fm75.github.io/jbook-209/README.html)
+- [generated book](https://fm75.github.io/jbook-209/README.html)
+- The colab dropdown does not appear in any of these experiments (branches).
 
 +++
 
@@ -29,6 +30,12 @@ colab defaults on in jbook
 
 ## colab_empty branch - colab_url no value
 `config.yml` colab_url :
+
+This is not valid yaml. `make build` warns
+```bash
+Warning: Validation errors in config:
+- None is not of type 'string' [key path: 'launch_buttons/colab_url']
+```
 
 ## colab_space branch - colab_url ''
 `config.yml` colab_url : ''
