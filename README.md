@@ -1,5 +1,20 @@
+---
+jupytext:
+  text_representation:
+    extension: .md
+    format_name: myst
+    format_version: 0.12
+    jupytext_version: 1.6.0
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---
+
 # jbook-209
 colab defaults on in jbook
+
++++
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fm75/jbook-209/master?urlpath=lab) master
 
@@ -16,3 +31,6 @@ colab defaults on in jbook
 ## colab_space branch - colab_url ''
 `config.yml` colab_url : ''
 
+```{code-cell} ipython3
+!jupytext README.ipynb  --to myst
+```
