@@ -29,6 +29,11 @@ colab defaults on in jbook
 
 ## colab_empty branch - colab_url no value
 `config.yml` colab_url :
+This is not valid yaml. `make build` warns
+```bash
+Warning: Validation errors in config:
+- None is not of type 'string' [key path: 'launch_buttons/colab_url']
+```
 
 ## colab_space branch - colab_url ''
 `config.yml` colab_url : ''
